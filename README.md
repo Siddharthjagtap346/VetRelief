@@ -100,45 +100,57 @@ Deployed by account:
 ## 🖼️ Screenshots
 
 ### 🏠 Main Page
-[Screenshot_12-10-2025_16125_localhost](https://github.com/user-attachments/assets/2456dcf6-860f-4d18-a66d-b133f11b0e63)
-
+![Screenshot_12-10-2025_16125_localhost](https://github.com/user-attachments/assets/c2a397e5-6bd4-48c0-b52f-c1d206923982)
 
 
 ### 🔐 Login Page
-![Screenshot_12-10-2025_16125_localhost](https://github.com/user-attachments/assets/a2f67216-959a-4701-9b36-e1cec4888ac2)
+![Screenshot_12-10-2025_15133_localhost](https://github.com/user-attachments/assets/d54b403d-91b7-4bf7-ba98-756582c11810)
 
-![Login Page](assets/screenshots/2_login.png)
+
 
 ### 🧾 Signup Page
-![Signup Page](assets/screenshots/3_signup.png)
+![Screenshot_12-10-2025_151326_localhost](https://github.com/user-attachments/assets/cab00e15-91c8-49e8-ae30-c2ff06faf43f)
+
 
 ### 🧑‍💼 Admin Dashboard
-![Admin Dashboard](assets/screenshots/4_admin_dashboard.png)
+![Screenshot_12-10-2025_153927_localhost](https://github.com/user-attachments/assets/f4820816-0fe8-4254-b167-475575a00c8f)
+
 
 ### ➕ Add Shelter
-![Add Shelter](assets/screenshots/5_add_shelter.png)
+![Screenshot_12-10-2025_153951_localhost](https://github.com/user-attachments/assets/d30eb153-0ff3-44a8-a2a2-8ec1d7ae0051)
+
+<img width="1915" height="823" alt="Screenshot 2025-10-12 154117" src="https://github.com/user-attachments/assets/a8a058ba-7fbe-4f0e-8f78-921a7c83985f" />
+
+
 
 ### 🏠 Shelter List
-![Shelter List](assets/screenshots/6_shelter_list.png)
+![Screenshot_12-10-2025_15462_localhost](https://github.com/user-attachments/assets/beb2618a-24f5-4327-bb9e-453d1688539c)
+
 
 ### 👥 User Dashboard
 ![User Dashboard](assets/screenshots/7_user_dashboard.png)
 
 ### 💸 Donation Form
-![Donation Form](assets/screenshots/8_donation_form.png)
+![Screenshot_12-10-2025_154641_localhost](https://github.com/user-attachments/assets/81c3ba38-7229-4004-b0f4-b9d61e8ae5e1)
+
+<img width="1896" height="833" alt="Screenshot 2025-10-12 154730" src="https://github.com/user-attachments/assets/6778c015-92f3-42ca-ad5e-eeb47744069f" />
+
+
 
 ### 📊 Donations Page
-![Donations Page](assets/screenshots/9_donations_list.png)
+![Screenshot_12-10-2025_15519_localhost](https://github.com/user-attachments/assets/525eba5e-c253-4ea2-820f-f29826469f83)
+
 
 ### 🧾 Final Receipt
-![Receipt](assets/screenshots/10_receipt.png)
+![Screenshot_12-10-2025_154753_localhost](https://github.com/user-attachments/assets/d8bbeb1d-5e25-47d8-aca9-96bf4171b25b)
+
 
 ---
 
 ## 🎥 Demo Video
 
 🎬 Watch the full VetRelief demo here:  
-[▶️ Click to View Demo Video](assets/demo/VetRelief_Demo.mp4)
+
 
 Or if hosted on YouTube:  
 [![Watch Demo on YouTube](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
