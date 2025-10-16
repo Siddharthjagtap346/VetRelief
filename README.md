@@ -1,7 +1,3 @@
-Absolutely ✅ — here’s your **ready-to-copy `README.md`** for your **VetRelief** project.
-Just copy all of this into a new file named **`README.md`** inside your project’s root folder. 👇
-
----
 
 ```markdown
 # 🩺 VetRelief – Blockchain-based Animal Shelter Donation System
