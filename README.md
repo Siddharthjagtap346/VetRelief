@@ -1,5 +1,4 @@
 
-```markdown
 # 🩺 VetRelief – Blockchain-based Animal Shelter Donation System
 
 VetRelief is a decentralized web application that enables **transparent animal shelter donations** using **blockchain and Web3** technology.  
