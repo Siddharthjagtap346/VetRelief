@@ -1,0 +1,30 @@
+# -------------------------------
+# Frontend - React / Next.js
+# -------------------------------
+frontend/**/*.js linguist-language=JavaScript
+frontend/**/*.jsx linguist-language=JavaScript
+frontend/**/*.ts linguist-language=TypeScript
+frontend/**/*.tsx linguist-language=TypeScript
+frontend/**/*.css linguist-language=CSS
+frontend/**/*.scss linguist-language=CSS
+frontend/**/*.html linguist-language=HTML
+
+# -------------------------------
+# Backend - Node.js / Express
+# -------------------------------
+backend/**/*.js linguist-language=JavaScript
+backend/**/*.ts linguist-language=TypeScript
+
+# -------------------------------
+# Blockchain - Solidity / Truffle
+# -------------------------------
+blockchain/contracts/**/*.sol linguist-language=Solidity
+blockchain/migrations/**/*.js linguist-language=JavaScript
+blockchain/test/**/*.js linguist-language=JavaScript
+
+# -------------------------------
+# Ignore build / vendor files
+# -------------------------------
+node_modules/* linguist-vendored
+blockchain/build/* linguist-vendored
+frontend/.next/* linguist-vendored
