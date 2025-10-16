@@ -105,10 +105,13 @@ Deployed by account:
 ## 🖼️ Screenshots
 
 ### 🏠 Main Page
-![WhatsApp Image 2025-10-12 at 17 12 32_94ccbbab](https://github.com/user-attachments/assets/d75994e0-1352-41de-aee5-d2419e26fe97)
+[Screenshot_12-10-2025_16125_localhost](https://github.com/user-attachments/assets/2456dcf6-860f-4d18-a66d-b133f11b0e63)
+
 
 
 ### 🔐 Login Page
+![Screenshot_12-10-2025_16125_localhost](https://github.com/user-attachments/assets/a2f67216-959a-4701-9b36-e1cec4888ac2)
+
 ![Login Page](assets/screenshots/2_login.png)
 
 ### 🧾 Signup Page
