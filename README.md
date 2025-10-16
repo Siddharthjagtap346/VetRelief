@@ -1,5 +1,5 @@
 
-# 🩺<img width="60" height="59" alt="image" src="https://github.com/user-attachments/assets/cc4cc0e4-c5c5-437c-aa77-f35f4b02d6e8" /> VetRelief – Blockchain-based Animal Shelter Donation System
+# <img width="56" height="56" alt="image" src="https://github.com/user-attachments/assets/761d5d9d-129a-4f5b-972f-d814aaee5347" /> VetRelief – Blockchain-based Animal Shelter Donation System
 
 VetRelief is a decentralized web application that enables **transparent animal shelter donations** using **blockchain and Web3** technology.  
 It combines a **Node.js + Express backend**, **React/Next.js frontend**, and **Ethereum smart contracts** deployed via **Truffle** and **Ganache**.
