@@ -100,6 +100,52 @@ Deployed by account:
 6. **Frontend UI** → Displays shelters, total donations, and history  
 
 ---
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Main Page
+![WhatsApp Image 2025-10-12 at 17 12 32_94ccbbab](https://github.com/user-attachments/assets/d75994e0-1352-41de-aee5-d2419e26fe97)
+
+
+### 🔐 Login Page
+![Login Page](assets/screenshots/2_login.png)
+
+### 🧾 Signup Page
+![Signup Page](assets/screenshots/3_signup.png)
+
+### 🧑‍💼 Admin Dashboard
+![Admin Dashboard](assets/screenshots/4_admin_dashboard.png)
+
+### ➕ Add Shelter
+![Add Shelter](assets/screenshots/5_add_shelter.png)
+
+### 🏠 Shelter List
+![Shelter List](assets/screenshots/6_shelter_list.png)
+
+### 👥 User Dashboard
+![User Dashboard](assets/screenshots/7_user_dashboard.png)
+
+### 💸 Donation Form
+![Donation Form](assets/screenshots/8_donation_form.png)
+
+### 📊 Donations Page
+![Donations Page](assets/screenshots/9_donations_list.png)
+
+### 🧾 Final Receipt
+![Receipt](assets/screenshots/10_receipt.png)
+
+---
+
+## 🎥 Demo Video
+
+🎬 Watch the full VetRelief demo here:  
+[▶️ Click to View Demo Video](assets/demo/VetRelief_Demo.mp4)
+
+Or if hosted on YouTube:  
+[![Watch Demo on YouTube](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+---
 
 ## 🪙 Database Setup
 
