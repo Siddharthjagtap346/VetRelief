@@ -128,7 +128,8 @@ Deployed by account:
 
 
 ### 👥 User Dashboard
-![User Dashboard](assets/screenshots/7_user_dashboard.png)
+![Screenshot_12-10-2025_153514_localhost](https://github.com/user-attachments/assets/f59dede9-c92c-424f-9380-2492fb698caf)
+
 
 ### 💸 Donation Form
 ![Screenshot_12-10-2025_154641_localhost](https://github.com/user-attachments/assets/81c3ba38-7229-4004-b0f4-b9d61e8ae5e1)
