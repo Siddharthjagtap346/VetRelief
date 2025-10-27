@@ -1,0 +1,454 @@
+
+
+/* Make the React app fill height */
+main {
+  flex: 1; /* take up available space */
+  padding-top: 80px; /* prevent content from hiding under fixed navbar */
+}
+
+/* Keep footer at the bottom */
+.footer {
+  margin-top: auto; /* pushes footer down naturally */
+  background: #333 url('./assets/footer-bg1.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 15px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+/* ================= Reset & Body ================= */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f7f8fc;
+  color: #333;
+}
+
+/* ================= Navbar ================= */
+.nav-bar {
+  position: fixed;       /* Fix it at the top */
+  top: 0;
+  left: 0;
+  background-color: #4caf50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar .logo img {
+  height: 50px;
+}
+
+.nav-bar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-bar nav a:hover {
+  color: #e0ffe0;
+}
+
+/* Logo Text */
+/* ================= Logo Text ================= */
+/* ================= Logo Text ================= */
+.logo-text {
+  font-family: 'Fredoka One', cursive; /* playful, bold, modern */
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #FFD700, #FFA500); /* golden → amber gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.25); /* subtle depth */
+  letter-spacing: 1.5px;
+}
+
+
+
+
+/* ================= Hero / Home ================= */
+.home-container {
+  text-align: center;
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #45a049;
+}
+
+/* ================= Forms (Donate/Add Shelter) ================= */
+.form-container, .donate-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.form-title, .donate-title {
+  font-size: 32px;
+  color: #4caf50;
+  margin-bottom: 30px;
+}
+
+.form-input, .donate-input {
+  width: 90%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.form-input:focus, .donate-input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+.form-btn, .donate-btn {
+  padding: 12px 25px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-btn:hover, .donate-btn:hover {
+  background-color: #45a049;
+}
+
+/* ================= Footer ================= */
+.footer {
+  background: #333 url('./assets/footer-bg1.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* ================= Logout Button ================= */
+.logout-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  margin-left: 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+.admin-badge {
+  background-color: #ff9800;
+  color: white;
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* ================= Shelters ================= */
+.shelters-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shelters-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.shelters-header h1,
+.shelters-header p {
+  text-align: center;
+  margin: 0.3rem 0;
+}
+
+.shelters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.shelter-card {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.25s, box-shadow 0.25s;
+  color: #fff;
+  position: relative;
+}
+
+/* Gradient backgrounds (darker, less harsh) */
+.gradient-card:nth-child(4n+1) { background: linear-gradient(135deg, #ffd2b2 0%, #fca77f 100%); }
+.gradient-card:nth-child(4n+2) { background: linear-gradient(135deg, #a7e48c 0%, #6dbf85 100%); }
+.gradient-card:nth-child(4n+3) { background: linear-gradient(135deg, #70d0a5 0%, #6ab8e0 100%); }
+.gradient-card:nth-child(4n+4) { background: linear-gradient(135deg, #fcbf88 0%, #b97edb 100%); }
+
+.shelter-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background-color: #f0f0f0; /* optional: gives a subtle background */
+}
+
+
+.shelter-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* <-- changed from cover */
+  background-color: rgba(0,0,0,0.05); /* optional: adds padding effect */
+  transition: transform 0.3s;
+}
+
+
+.shelter-card:hover .shelter-img {
+  transform: scale(1.05);
+}
+
+.shelter-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.shelter-info {
+  padding: 1rem 1.2rem 1.5rem 1.2rem;
+  text-align: center;
+}
+
+.shelter-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+}
+
+.wallet-text {
+  font-size: 0.95rem;
+  word-break: break-all;
+  opacity: 0.9;
+}
+
+.donate-card-btn {
+  margin-top: 1rem;
+  padding: 0.55rem 1rem;
+  background: rgba(255,255,255,0.75);
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.donate-card-btn:hover {
+  background: rgba(255,255,255,0.95);
+  transform: scale(1.05);
+}
+
+/* ================= My Donations ================= */
+.donations-container {
+  padding: 2rem;
+}
+
+.donations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.donation-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.8rem;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.donation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.gradient-card {
+  color: white;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.55rem 1.2rem;
+  background: #ffd740;
+  color: #333;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.download-btn:hover {
+  background: #ffc400;
+}
+
+
+.contact-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.contact-header h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.contact-header p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+.contact-content {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.form-input:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+}
+
+.form-btn {
+  padding: 12px;
+  background-color: #46e54eff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-btn:hover {
+  background-color: #305ea3ff;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f3f4f6;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.contact-info p, .contact-info li {
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact-info ul {
+  padding-left: 20px;
+}

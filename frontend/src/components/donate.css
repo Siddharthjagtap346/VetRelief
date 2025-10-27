@@ -1,0 +1,43 @@
+
+.donate-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.donate-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.donate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.donate-input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.donate-btn {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-btn:hover {
+  background: #45a049;
+}
