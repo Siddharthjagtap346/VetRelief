@@ -275,5 +275,3 @@ git add README.md
 git commit -m "Added detailed project README"
 git push
 ````
-
-Would you like me to also give you the **`.gitignore`** file (ready to copy–paste) next?
